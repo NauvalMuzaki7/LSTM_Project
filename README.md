@@ -4,4 +4,6 @@ JKSE Stock Price Prediction Using Long-Short Term Memory With and Without Statio
 # Conclusion
 ![Alt text](https://github.com/NauvalMuzaki7/LSTM_Project/blob/main/Screenshot%202025-03-03%20at%2015.15.12.png)
 
-With the SVR (Support Vector Regression) method, the best model is obtained, namely a model with a linear kernel, Cost 100, and Epsilon (e) 0.01 with a model fit value of R-Square 99.25856% and MAPE 4.89308 in training and R-Square 92.92418% and MAPE 2.387365 in testing. Then after forecasting for the next 100 periods, it appears that the JKSE stock price will increase over the next 100 periods. From the results of this experience, it can be used as material to make choices to stock buyers whether to buy JKSE shares or not.
+JKSE Stock Index Close Price data using stationarity handling modeled using the five methods, the best model for predicting validation data is to use the Bidirectional LSTM method with an RMSE value of 41.94 and an MAE value of 32.61.
+
+Meanwhile, JKSE Stock Index Close Price Data without using stationarity handling modeled using the five methods, the best model for predicting validation data is to use the Bidirectional LSTM method with an RMSE value of 26.26 and an MAE value of 20.44. Meanwhile, to predict the next 4 periods (days) of data, the best model is the Vanilla LSTM model with an RMSE value of 37.21 and MAE of 28.72.
